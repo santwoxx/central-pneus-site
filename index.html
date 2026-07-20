@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Central Pneus — Pneus, Recapagem e Truck Center em Itabuna/BA</title>
+<meta name="description" content="Central Pneus: venda de pneus novos, usados e reformados, recapagem, alinhamento, balanceamento e manutenção para carros e frotas de caminhão. Representante Continental, Vipal e XBRI em Itabuna/BA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" id="siteHeader">
+  <div class="container nav-inner">
+    <a href="#home" class="brand">
+      <img src="images/logo.png" alt="Central Pneus" style="height: 48px; object-fit: contain;">
+    </a>
+
+    <nav class="main-nav">
+      <ul>
+        <li class="has-submenu">
+          <a href="#empresa">Empresa <svg class="caret" viewBox="0 0 10 10" fill="none"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.4"/></svg></a>
+          <div class="submenu">
+            <a href="#empresa">Quem somos</a>
+            <a href="#empresa">Nossa estrutura</a>
+            <a href="#faq">Perguntas frequentes</a>
+            <a href="blog/index.html">Blog</a>
+          </div>
+        </li>
+        <li class="has-submenu">
+          <a href="#servicos">Serviços <svg class="caret" viewBox="0 0 10 10" fill="none"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.4"/></svg></a>
+          <div class="submenu">
+            <a href="#servicos">Pneus novos, usados e reformados</a>
+            <a href="#servicos">Recapagem de pneumáticos</a>
+            <a href="#servicos">Alinhamento e balanceamento</a>
+            <a href="#servicos">Borracharia especializada</a>
+            <a href="#servicos">Manutenção para caminhões</a>
+            <a href="#truck-center">Truck Center / Frotas</a>
+          </div>
+        </li>
+        <li><a href="#pneus">Pneus</a></li>
+        <li><a href="#recapagem">Recapagem</a></li>
+        <li><a href="#truck-center">Truck Center</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <a class="btn-whatsapp" href="https://wa.me/557333018133?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento.%20Pode%20me%20atender%3F" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-2-1.2 7.4 7.4 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5l-.7-1.7c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3a2.7 2.7 0 0 0-.9 2c0 1.2.9 2.4 1 2.5.1.2 1.8 2.7 4.3 3.8.6.3 1.1.4 1.4.5.6.2 1.2.2 1.6.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.3z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-nav" id="mobileNav">
+    <ul>
+      <li><a href="#home">Início</a></li>
+      <li><a href="#empresa">Empresa</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#pneus">Pneus</a></li>
+      <li><a href="#recapagem">Recapagem</a></li>
+      <li><a href="#truck-center">Truck Center</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="blog/index.html">Blog</a></li>
+      <li><a href="#faq">Dúvidas frequentes</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <div class="mobile-cta">
+      <a class="btn btn-primary" href="https://wa.me/557333018133?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento.%20Pode%20me%20atender%3F" target="_blank" rel="noopener"><span>Falar no WhatsApp</span></a>
+    </div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<!-- Sugestão de imagem: uma foto real, panorâmica/grande-angular, da fachada ou do pátio da Central Pneus (de dia, céu aberto) valorizaria ainda mais esta dobra. Está em uso images/empresa/fachada.webp, foto real da empresa. -->
+<section class="hero" id="home" style="background-image:url('images/cabeçalho.png');">
+  <div class="container hero-inner">
+    <span class="hero-eyebrow">Representante Continental · Vipal · XBRI</span>
+    <h1>10 anos mantendo quem move a estrada em movimento.</h1>
+    <p>Pneus, recapagem e Truck Center para carros de passeio e frotas de caminhão — em Itabuna e toda a região.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="https://wa.me/557333018133?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento.%20Pode%20me%20atender%3F" target="_blank" rel="noopener"><span>Falar com especialista</span></a>
+      <a class="btn btn-outline-light" href="#servicos"><span>Conheça nossas soluções</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAIXA INSTITUCIONAL ===== -->
+<div class="intro-strip">
+  <div class="container intro-grid">
+    <div class="intro-item">
+      <div class="intro-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+      </div>
+      <strong>10 anos</strong>
+      <p>De Central Pneus atendendo Itabuna e região com pneus, recapagem e manutenção.</p>
+    </div>
+    <div class="intro-item">
+      <div class="intro-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+      </div>
+      <strong>Marcas parceiras</strong>
+      <div class="intro-brands">
+        <img src="images/brands/continental.svg" alt="Continental">
+        <img src="images/brands/vipal.svg" alt="Vipal">
+        <img src="images/brands/xbri.svg" alt="XBRI">
+      </div>
+    </div>
+    <div class="intro-item">
+      <div class="intro-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+      </div>
+      <strong>Estrutura na BR-415</strong>
+      <p>Pátio amplo e linha própria de recapagem no Centro Industrial, Itabuna/BA.</p>
+    </div>
+    <div class="intro-item">
+      <div class="intro-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+      </div>
+      <strong>Carros e frotas</strong>
+      <p>Atendimento dedicado para veículo de passeio e para operação de frotas de caminhão.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SERVIÇOS ===== -->
+<section id="servicos">
+  <div class="container">
+    <span class="section-kicker">O que fazemos</span>
+    <h2 class="section-title">Serviços Central Pneus</h2>
+    <p class="section-subtitle">Estrutura completa para carro de passeio e veículo pesado, do pneu à manutenção mecânica.</p>
+    <div class="grid-3">
+      <div class="service-block">
+        <div class="service-media"><img src="images/servicos/reforma-pneu.jpg" alt="Manutenção de pneu na Central Pneus" loading="lazy"></div>
+        <div class="service-body">
+          <h3>Pneus novos, usados e reformados</h3>
+          <p>Opções para todo orçamento, com procedência garantida e marcas parceiras oficiais.</p>
+          <a class="service-link" href="https://wa.me/557333018133?text=Ol%C3%A1!%20Quero%20consultar%20pre%C3%A7o%20de%20pneus." target="_blank" rel="noopener">Consultar no WhatsApp →</a>
+        </div>
+      </div>
+      <div class="service-block">
+        <div class="service-media"><img src="images/servicos/truck-wheel.jpg" alt="Aplicação de banda de rodagem em processo de recapagem" loading="lazy"></div>
+        <div class="service-body">
+          <h3>Recapagem de pneumáticos</h3>
+          <p>Reforma profissional que estende a vida útil do pneu com segurança e economia.</p>
+          <a class="service-link" href="#recapagem">Ver o processo de recapagem →</a>
+        </div>
+      </div>
+      <div class="service-block">
+        <div class="service-media"><img src="images/Alinhamento e balanceamento.jpeg" alt="Alinhamento de roda na Central Pneus" loading="lazy"></div>
+        <div class="service-body">
+          <h3>Alinhamento e balanceamento</h3>
+          <p>Precisão para rodar com estabilidade, economia de combustível e desgaste uniforme.</p>
+          <a class="service-link" href="https://wa.me/557333018133?text=Ol%C3%A1!%20Quero%20agendar%20alinhamento%2Fbalanceamento." target="_blank" rel="noopener">Agendar no WhatsApp →</a>
+        </div>
+      </div>
+      <div class="service-block">
+        <div class="service-media"><img src="images/Borracharia especializada.png" alt="Desmontagem de pneu na borracharia especializada" loading="lazy"></div>
+        <div class="service-body">
+          <h3>Borracharia especializada</h3>
+          <p>Reparo, montagem e desmontagem com equipe experiente em pneus de todos os portes.</p>
+          <a class="service-link" href="https://wa.me/557333018133?text=Ol%C3%A1!%20Preciso%20de%20servi%C3%A7o%20de%20borracharia." target="_blank" rel="noopener">Falar no WhatsApp →</a>
+        </div>
+      </div>
+      <div class="service-block">
+        <div class="service-media"><img src="images/Manutenção para caminhões.png" alt="Inspeção técnica de pneu de caminhão" loading="lazy"></div>
+        <div class="service-body">
+          <h3>Manutenção para caminhões</h3>
+          <p>Serviços mecânicos gerais voltados ao cuidado de veículos de carga.</p>
+          <a class="service-link" href="https://wa.me/557333018133?text=Ol%C3%A1!%20Quero%20falar%20sobre%20manuten%C3%A7%C3%A3o%20para%20caminh%C3%A3o." target="_blank" rel="noopener">Falar no WhatsApp →</a>
+        </div>
+      </div>
+      <div class="service-block">
+        <div class="service-media"><img src="images/servicos/borracharia.jpg" alt="Atendimento a veículo pesado no Truck Center" loading="lazy"></div>
+        <div class="service-body">
+          <h3>Truck Center / Frotas</h3>
+          <p>Atendimento dedicado a empresas e frotas, com agilidade para não parar a operação.</p>
+          <a class="service-link" href="#truck-center">Conhecer o Truck Center →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PNEUS ===== -->
+<section id="pneus" style="background:var(--cream);">
+  <div class="container">
+    <span class="section-kicker">Catálogo</span>
+    <h2 class="section-title">Pneus para todo perfil e orçamento</h2>
+    <p class="section-subtitle">Três categorias para você escolher com o vendedor a melhor relação custo-benefício.</p>
+    <div class="grid-3">
+      <div class="card">
+        <span class="tag-pill">Novos</span>
+        <h3 style="margin-top:14px;">Pneus novos</h3>
+        <p>Linha completa das marcas parceiras, para carro de passeio e caminhão.</p>
+      </div>
+      <div class="card">
+        <span class="tag-pill">Usados</span>
+        <h3 style="margin-top:14px;">Pneus usados</h3>
+        <p>Opção de entrada com inspeção de qualidade antes da venda.</p>
+      </div>
+      <div class="card">
+        <span class="tag-pill">Reformados</span>
+        <h3 style="margin-top:14px;">Pneus reformados</h3>
+        <p>Recapagem própria — mais economia sem abrir mão da segurança.</p>
+      </div>
+    </div>
+
+    <h3 class="text-center" style="margin-top:64px; font-size:14px; letter-spacing:2px; text-transform:uppercase; color:var(--gray-tech);">Marcas parceiras</h3>
+    <div class="grid-3" style="margin-top:20px;">
+      <div class="card text-center"><img class="brand-logo-card" src="images/brands/continental.svg" alt="Continental"></div>
+      <div class="card text-center"><img class="brand-logo-card" src="images/brands/vipal.svg" alt="Vipal"></div>
+      <div class="card text-center"><img class="brand-logo-card" src="images/brands/xbri.svg" alt="XBRI"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TRUCK CENTER — alto impacto ===== -->
+<section class="impact-section" id="truck-center" style="background-image:url('images/Frotas e veículos pesados.jpeg');">
+  <div class="container impact-inner">
+    <span class="section-kicker" style="text-align:left; color:var(--green-support);">Frotas e veículos pesados</span>
+    <h2>Sua frota não pode parar.</h2>
+    <p>Estrutura dedicada a caminhões e frotas: pátio amplo, pneus para uso rodoviário pesado e manutenção mecânica geral — para sua operação parar o mínimo possível.</p>
+    <ul class="check-list">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Atendimento a empresas e frotas</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Pátio próprio para manobra de caminhões</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Pneus e recapagem para uso rodoviário pesado</li>
+    </ul>
+    <a class="btn btn-navy mt-24" href="https://wa.me/557333018133?text=Ol%C3%A1!%20Tenho%20uma%20frota%2Fcaminh%C3%A3o%20e%20quero%20atendimento%20Truck%20Center." target="_blank" rel="noopener"><span>Falar sobre minha frota</span></a>
+  </div>
+</section>
+
+<!-- ===== RECAPAGEM ===== -->
+<section id="recapagem" class="section-dark">
+  <div class="container">
+    <div class="split split-reverse">
+      <div>
+        <span class="section-kicker" style="text-align:left;">Reforma de pneumáticos</span>
+        <h2 class="section-title" style="text-align:left;">Recapagem Central Pneus</h2>
+        <p style="margin:16px 0 24px;">A recapagem reaproveita a carcaça de um pneu em boas condições, aplicando uma nova banda de rodagem. É uma alternativa mais econômica ao pneu novo, amplamente usada por frotas de caminhão no Brasil e regulamentada pelo INMETRO.</p>
+        <ul class="check-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Custo menor que um pneu novo</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Menos descarte de borracha, mais sustentável</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Indicada especialmente para frotas de caminhão</li>
+        </ul>
+        <a class="btn btn-primary mt-24" href="https://wa.me/557333018133?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20recapagem%20de%20pneus." target="_blank" rel="noopener"><span>Consultar recapagem</span></a>
+      </div>
+      <div class="split-media">
+        <img src="images/recapagem.jpeg" alt="Linha de produção e recapagem de pneus na Central Pneus, Itabuna/BA" loading="lazy">
+      </div>
+    </div>
+
+    <div class="process-steps">
+      <div class="process-step"><div class="step-num">01</div><h4>Inspeção da carcaça</h4><p>Avaliação técnica para garantir que o pneu está apto à reforma.</p></div>
+      <div class="process-step"><div class="step-num">02</div><h4>Raspagem</h4><p>Remoção da banda de rodagem desgastada.</p></div>
+      <div class="process-step"><div class="step-num">03</div><h4>Nova banda de rodagem</h4><p>Aplicação da banda nova, conforme o uso do veículo.</p></div>
+      <div class="process-step"><div class="step-num">04</div><h4>Vulcanização e inspeção final</h4><p>Cura do material e checagem de qualidade antes da entrega.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EMPRESA / QUEM SOMOS ===== -->
+<section id="empresa">
+  <div class="container">
+    <span class="section-kicker">Quem somos</span>
+    <h2 class="section-title">10 anos de Central Pneus</h2>
+    <p class="section-subtitle">Central Pneus Comércio e Importadora de Pneus LTDA — empresa especializada no segmento automotivo e de transporte rodoviário, com foco em veículos pesados (caminhões e frotas) e também em carros de passeio.</p>
+
+    <div class="split">
+      <!-- Mosaico com as 3 fotos reais disponíveis da empresa (fachada, pátio, linha de recapagem). -->
+      <div class="photo-mosaic">
+        <div class="mosaic-main"><img src="images/reform2.jpeg" alt="Fachada da Central Pneus, Rod. BR-415, Itabuna/BA" loading="lazy"></div>
+        <div class="mosaic-sub"><img src="images/reform3.png" alt="Pátio da Central Pneus com caminhões" loading="lazy"></div>
+        <div class="mosaic-sub"><img src="images/reform1.jpeg" alt="Linha de recapagem da Central Pneus" loading="lazy"></div>
+      </div>
+      <div>
+        <span class="tag-pill">Estrutura</span>
+        <h3 style="text-transform:none; font-size:22px; margin:16px 0 14px;">Estrutura industrial em Itabuna/BA</h3>
+        <ul class="check-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Pátio amplo para caminhões e veículos de carga</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Linha de produção própria para recapagem</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Localização estratégica na Rod. BR-415, Centro Industrial</li>
+        </ul>
+        <p style="color:var(--gray-tech); font-size:13.5px; margin-top:14px;"><em>Equipe:</em> conteúdo pendente — espaço reservado para apresentação da equipe (nomes, funções, fotos).</p>
+        <!-- FOTOS REAIS NECESSÁRIAS PARA ESTA SEÇÃO: (1) equipe da Central Pneus em atividade; (2) close da oficina/bancada de trabalho; (3) equipamentos (balanceadora, alinhadora, recapadora); (4) vista ampla do pátio com movimento de caminhões e clientes. Substituir os placeholders acima assim que as fotos estiverem disponíveis — não usar fotos genéricas nesta seção. -->
+      </div>
+    </div>
+
+    <div class="grid-4" style="margin-top:64px;">
+      <div class="card card-pending">
+        <h3>História</h3>
+        <p><em>Conteúdo pendente</em> — espaço reservado para a história real da empresa (ano de fundação, origem do nome, marcos importantes).</p>
+      </div>
+      <div class="card">
+        <h3>Missão</h3>
+        <p>Manter carros e frotas rodando com segurança, oferecendo pneus e manutenção de confiança para quem depende da estrada todos os dias.</p>
+      </div>
+      <div class="card">
+        <h3>Valores</h3>
+        <p>Procedência garantida, atendimento técnico especializado e agilidade no atendimento a empresas e frotas.</p>
+      </div>
+      <div class="card card-pending">
+        <h3>Certificações</h3>
+        <p><em>Conteúdo pendente</em> — espaço reservado para certificações reais (ex.: INMETRO, selos de parceria oficial das marcas).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALERIA ===== -->
+<section id="galeria" style="background:var(--cream);">
+  <div class="container">
+    <span class="section-kicker">Nosso espaço</span>
+    <h2 class="section-title">Galeria</h2>
+    <p class="section-subtitle">Um pouco da estrutura e do processo de trabalho da Central Pneus em Itabuna/BA.</p>
+    <div class="gallery-editorial">
+      <figure class="g-wide">
+        <div class="g-frame"><img src="images/reform3.png" alt="Fachada da Central Pneus" loading="lazy"></div>
+        <figcaption>Fachada — Rod. BR-415, Centro Industrial, Itabuna/BA</figcaption>
+      </figure>
+      <figure>
+        <div class="g-frame"><img src="images/operacao/patio.webp" alt="Pátio para caminhões da Central Pneus" loading="lazy"></div>
+        <figcaption>Pátio para caminhões e frotas</figcaption>
+      </figure>
+      <figure>
+        <div class="g-frame"><img src="images/reform5.jpeg" alt="Linha de recapagem da Central Pneus" loading="lazy"></div>
+        <figcaption>Linha de recapagem</figcaption>
+      </figure>
+      <figure>
+        <div class="g-frame"><img src="images/reform7.png" alt="Desmontagem de pneu de caminhão" loading="lazy"></div>
+        <figcaption>Processo de desmontagem</figcaption>
+      </figure>
+      <figure>
+        <div class="g-frame"><img src="images/Manutenção para caminhões.png" alt="Inspeção de pneu de caminhão" loading="lazy"></div>
+        <figcaption>Inspeção técnica do pneu</figcaption>
+      </figure>
+      <figure>
+        <div class="g-frame"><img src="images/reform4.jpeg" alt="Aplicação de banda de rodagem em processo de recapagem" loading="lazy"></div>
+        <figcaption>Aplicação da nova banda de rodagem</figcaption>
+      </figure>
+    </div>
+    <!-- As três primeiras imagens são fotos reais da Central Pneus. As três últimas (desmontagem, inspeção, aplicação de banda) são fotos ilustrativas do processo — substituir por fotos reais da operação da empresa assim que disponíveis, para uma galeria 100% autêntica. -->
+  </div>
+</section>
+
+<!-- ===== BLOG (preview) ===== -->
+<section id="blog">
+  <div class="container">
+    <span class="section-kicker">Conteúdo</span>
+    <h2 class="section-title">Blog</h2>
+    <p class="section-subtitle">Dicas práticas sobre pneus, recapagem e manutenção.</p>
+    <div class="blog-grid">
+      <a class="blog-card" href="blog/como-saber-a-hora-de-recapar-um-pneu.html">
+        <div class="blog-card-media"><img src="images/recapar um pneu.png" alt="Como saber a hora de recapar um pneu" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="blog-card-body"><span class="tag">Manutenção</span><h3>Como saber a hora de recapar um pneu?</h3><p>Os sinais de desgaste que indicam o momento certo de reformar.</p><span class="read-more">Ler mais →</span></div>
+      </a>
+      <a class="blog-card" href="blog/calibragem-correta-dos-pneus.html">
+        <div class="blog-card-media"><img src="images/calibragem.png" alt="Calibragem correta dos pneus" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="blog-card-body"><span class="tag">Dicas</span><h3>Qual a calibragem correta?</h3><p>Por que seguir a pressão indicada pelo fabricante do veículo.</p><span class="read-more">Ler mais →</span></div>
+      </a>
+      <a class="blog-card" href="blog/pneu-radial-ou-diagonal.html">
+        <div class="blog-card-media"><img src="images/radial ou diagonal.png" alt="Pneu radial ou diagonal" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="blog-card-body"><span class="tag">Guia</span><h3>Pneu radial ou diagonal?</h3><p>As diferenças entre as duas construções e onde cada uma se aplica.</p><span class="read-more">Ler mais →</span></div>
+      </a>
+      <a class="blog-card" href="blog/quanto-dura-um-pneu-recapado.html">
+        <div class="blog-card-media"><img src="images/recapagem1.png" alt="Quanto dura um pneu recapado" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="blog-card-body"><span class="tag">Dúvidas</span><h3>Quanto dura um pneu recapado?</h3><p>Os fatores que definem a vida útil de um pneu reformado.</p><span class="read-more">Ler mais →</span></div>
+      </a>
+      <a class="blog-card" href="blog/como-aumentar-a-vida-util-do-pneu.html">
+        <div class="blog-card-media"><img src="images/vida útil do pneu.png" alt="Como aumentar a vida útil do pneu" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="blog-card-body"><span class="tag">Dicas</span><h3>Como aumentar a vida útil do pneu?</h3><p>Hábitos simples que evitam desgaste prematuro e gastos extras.</p><span class="read-more">Ler mais →</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq" style="background:var(--cream);">
+  <div class="container">
+    <span class="section-kicker">Dúvidas frequentes</span>
+    <h2 class="section-title">FAQ</h2>
+    <p class="section-subtitle">As perguntas que mais recebemos sobre pneus, recapagem e atendimento a frotas.</p>
+    <div class="faq-split">
+      <div class="faq-list" id="faqList">
+        <div class="faq-item active" data-answer="Depende de fatores como tipo de rodagem, carga transportada e manutenção preventiva (calibragem e alinhamento em dia). Quando feita a partir de uma carcaça em boas condições, a recapagem pode ter vida útil comparável à de um pneu novo em uso equivalente.">
+          <button class="faq-question">Quanto dura uma recapagem?</button>
+        </div>
+        <div class="faq-item" data-answer="Sim, principalmente para frotas: o custo é menor que o de um pneu novo e, no Brasil, a recapagem é regulamentada pelo INMETRO, o que garante um padrão de qualidade quando feita em empresa especializada.">
+          <button class="faq-question">Vale a pena?</button>
+        </div>
+        <div class="faq-item" data-answer="Sim, nossos serviços possuem garantia. As condições variam conforme o tipo de pneu e serviço — consulte nossa equipe pelo WhatsApp para os detalhes do seu caso.">
+          <button class="faq-question">Tem garantia?</button>
+        </div>
+        <div class="faq-item" data-answer="O prazo varia conforme a quantidade de pneus e o tipo de serviço. Buscamos sempre agilidade, especialmente no atendimento a frotas — fale com a gente para um prazo estimado do seu pedido.">
+          <button class="faq-question">Quanto tempo demora?</button>
+        </div>
+        <div class="faq-item" data-answer="Sim, o atendimento a empresas é uma das nossas especialidades, com condições e atendimento dedicados via nosso Truck Center.">
+          <button class="faq-question">Atendem empresas?</button>
+        </div>
+        <div class="faq-item" data-answer="Sim. Temos estrutura própria (pátio e equipe) voltada a caminhões e frotas, incluindo recapagem e manutenção mecânica geral.">
+          <button class="faq-question">Trabalham com frota?</button>
+        </div>
+        <div class="faq-item" data-answer="Somos parceiros de marcas como Continental, Vipal e XBRI, além de outras opções em pneus novos, usados e reformados.">
+          <button class="faq-question">Quais marcas possuem?</button>
+        </div>
+      </div>
+      <div class="faq-panel" id="faqPanel">
+        <h3>Quanto dura uma recapagem?</h3>
+        <p>Depende de fatores como tipo de rodagem, carga transportada e manutenção preventiva (calibragem e alinhamento em dia). Quando feita a partir de uma carcaça em boas condições, a recapagem pode ter vida útil comparável à de um pneu novo em uso equivalente.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTATO + MAPA ===== -->
+<section id="contato">
+  <div class="container">
+    <span class="section-kicker">Fale conosco</span>
+    <h2 class="section-title">Contato</h2>
+    <div class="contact-grid" style="margin-top:48px;">
+      <div>
+        <ul class="contact-info-list">
+          <li>
+            <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="none"><path d="M12 21s-7-7.2-7-12a7 7 0 1 1 14 0c0 4.8-7 12-7 12z" fill="#275538"/></svg></span>
+            <div><strong>Endereço</strong><span>Rod. BR-415, nº 4249 — Centro Industrial, Itabuna - BA, CEP 45613-000</span></div>
+          </li>
+          <li>
+            <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#275538" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+            <div>
+              <strong>Telefone / WhatsApp</strong>
+              <a href="tel:+557333018133">(73) 3301-8133</a>
+              <a class="sub-link" href="https://wa.me/557333018133" target="_blank" rel="noopener">Chamar no WhatsApp →</a>
+            </div>
+          </li>
+          <li>
+            <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#275538" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></span>
+            <div><strong>Instagram</strong><a href="https://www.instagram.com/centralpneusitabuna/" target="_blank" rel="noopener">@centralpneusitabuna</a></div>
+          </li>
+          <li>
+            <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#275538" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span>
+            <div><strong>Horário de funcionamento</strong><span><em>Conteúdo pendente</em> — confirmar horário real de atendimento.</span></div>
+          </li>
+        </ul>
+      </div>
+      <div class="map-embed">
+        <iframe src="https://www.google.com/maps?q=Rod.+BR-415,+4249+-+Centro+Industrial,+Itabuna+-+BA,+45613-000&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa Central Pneus Itabuna"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RODAPÉ ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand">
+          <img src="images/logo.png" alt="Central Pneus" style="height: 48px; object-fit: contain;">
+        </a>
+        <p>Pneus, recapagem e manutenção para carros e frotas de caminhão. Representante Continental, Vipal e XBRI em Itabuna/BA.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/centralpneusitabuna/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </a>
+          <a href="https://wa.me/557333018133" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-2-1.2 7.4 7.4 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5l-.7-1.7c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3a2.7 2.7 0 0 0-.9 2c0 1.2.9 2.4 1 2.5.1.2 1.8 2.7 4.3 3.8.6.3 1.1.4 1.4.5.6.2 1.2.2 1.6.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.3z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Links rápidos</h4>
+        <ul>
+          <li><a href="#empresa">Empresa</a></li>
+          <li><a href="#faq">Dúvidas frequentes</a></li>
+          <li><a href="blog/index.html">Blog</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#servicos">Venda de pneus</a></li>
+          <li><a href="#recapagem">Recapagem</a></li>
+          <li><a href="#servicos">Alinhamento e balanceamento</a></li>
+          <li><a href="#truck-center">Truck Center</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Marcas</h4>
+        <ul>
+          <li><a href="#pneus">Continental</a></li>
+          <li><a href="#pneus">Vipal</a></li>
+          <li><a href="#pneus">XBRI</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Central Pneus Comércio e Importadora de Pneus LTDA. Todos os direitos reservados.</span>
+      <a href="#">Política de Privacidade</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== WHATSAPP FLUTUANTE ===== -->
+<a class="whatsapp-float" href="https://wa.me/557333018133?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-2-1.2 7.4 7.4 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5l-.7-1.7c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3a2.7 2.7 0 0 0-.9 2c0 1.2.9 2.4 1 2.5.1.2 1.8 2.7 4.3 3.8.6.3 1.1.4 1.4.5.6.2 1.2.2 1.6.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.3z"/></svg>
+</a>
+
+<!-- ===== MODAL DE IMAGEM ===== -->
+<div id="imageModal" class="image-modal" aria-hidden="true">
+  <button class="image-modal-close" aria-label="Fechar" id="closeImageModal">&times;</button>
+  <img class="image-modal-content" id="imageModalImg" src="" alt="Imagem ampliada">
+</div>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
